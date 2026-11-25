@@ -1,29 +1,129 @@
-<!-- README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:57(GMT-04:00) -->
-**README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:57(GMT-04:00)**
+<!-- README.md | Vitalia Kit v0.0.1 | 25-11-2026 16:07(GMT-04:00) -->
+**README.md | Vitalia Kit v0.0.1 | 25-11-2026 16:07(GMT-04:00)**
 
-# Vitalia Session Dashboard
+# 🧠 Painel de Contexto — vitalia-docs
 
-![nível](https://img.shields.io/badge/nível-0-blue) ![sessão](https://img.shields.io/badge/sessão-ativa-green)
+![Status](https://img.shields.io/badge/Status-Ativo-green?style=flat-square)
+![Semáforo](https://img.shields.io/badge/Sem%C3%A1foro-Sincronizado-green?style=flat-square)
+![Modo](https://img.shields.io/badge/Modo-dual--repo-blue?style=flat-square)
+![Sync](https://img.shields.io/badge/Sync-24--11--2026%2020%3A36%28GMT--04%3A00%29-informational?style=flat-square)
+![Grounding](https://img.shields.io/badge/Grounding-OK-green?style=flat-square)
 
-## Resumo de Dados (Camada 3)
+> **Vitalia Kit v0.0.1 — Ledger de Memória Persistente e Orquestração Multi-Máquina.**  
+> Este repositório armazena o histórico distribuído, decisões arquiteturais, aprendizados consolidados e projeções de grounding das sessões de trabalho do Vitalia Kit.
 
-| Categoria | Itens |
-|-----------|-------|
-| context | 6 |
-| handoffs | 0 |
-| diagnostics | 0 |
-| research | 0 |
-| backups | 0 |
-| telemetry | 0 |
+---
 
-**Total**: 6 itens
+## 📡 Topologia de Shards & Sincronização
 
-## Navegação
+<div align="center">
 
-- [context](../data_storage/context/README.md)
-- [handoffs](../data_storage/handoffs/README.md)
-- [research](../data_storage/research/README.md)
-- [backups](../data_storage/backups/README.md)
-- [telemetry](../data_storage/telemetry/README.md)
+```mermaid
+flowchart TD
+    HUB["vitalia-docs (Session Ledger)"]
+    SHARD_1["72a556ad — Rodada 2 de testes do Vitalia Kit v0.0.1, análise "]
+    HUB --> SHARD_1
+    SHARD_2["72a556ad — Auditoria de prontidão Turno 1 do Vitalia Kit v0.0"]
+    HUB --> SHARD_2
+```
 
-*Atualizado em 24-11-2026 21:57(GMT-04:00) — Vitalia Kit v0.0.1*
+</div>
+
+---
+
+## 🖥️ Máquinas e Status Atual
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Máquina / ID</th>
+      <th align="left">Tarefa Atual</th>
+      <th align="center">Ambiente</th>
+      <th align="center">Status</th>
+      <th align="left">Último Sync</th>
+      <th align="left">Próximo Passo (P0)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>—</code> (72a556ad)</td><td>Rodada 2 de testes do Vitalia Kit v0.0.1, análise de GuardianContextV2/data_storage_io/pipeline.json e pacote de handoff para Rodada 3</td><td align="center"><code>dual-repo</code></td><td align="center">completed</td><td>24-11-2026 20:36(GMT-04:00)</td><td>Levar o pacote da Rodada 3 (handoff-rodada-3-vitalia-kit-v0.0.1.md, guias de correção do Memorando/Contratos, dashboard_template_referencia.md e mapa-testes-vitalia-kit.md) para a máquina do vitalia-kit, aplicar correções em source/ e validar T1-T7.</td></tr>
+    <tr><td><code>—</code> (72a556ad)</td><td>Auditoria de prontidão Turno 1 do Vitalia Kit v0.0.1 e consolidação documental em vitalia-docs</td><td align="center"><code>dual-repo</code></td><td align="center">completed</td><td>24-11-2026 10:22(GMT-04:00)</td><td>Retestar a nova versão corrigida do Vitalia Kit v0.0.1 (Turno 2) validando os itens do handoff e, após estabilização do código, reconciliar docs/CONTRATOS_WORKFLOWS_SDD.md.</td></tr>
+  </tbody>
+</table>
+
+---
+
+## 🎯 Sessão Ativa em Destaque
+
+- **Máquina:** `—` (`72a556ad`)
+- **Shard ID:** `72a556ad_20261124_2036`
+- **Tarefa:** Rodada 2 de testes do Vitalia Kit v0.0.1, análise de GuardianContextV2/data_storage_io/pipeline.json e pacote de handoff para Rodada 3
+- **Status:** `completed` | **Último Sync:** `24-11-2026 20:36(GMT-04:00)`
+- **Próximo Passo (P0):** Levar o pacote da Rodada 3 (handoff-rodada-3-vitalia-kit-v0.0.1.md, guias de correção do Memorando/Contratos, dashboard_template_referencia.md e mapa-testes-vitalia-kit.md) para a máquina do vitalia-kit, aplicar correções em source/ e validar T1-T7.
+
+---
+
+## 📚 Histórico, Decisões, Aprendizados & Guard Rails
+
+<details>
+<summary><strong>🔍 Clique para expandir o Histórico Completo de Sessões</strong></summary>
+
+<br/>
+
+- **`24-11-2026 20:36(GMT-04:00)`** — `—` (`72a556ad_20261124_2036`): Rodada 2 de testes do Vitalia Kit v0.0.1, análise de GuardianContextV2/data_storage_io/pipeline.json e pacote de handoff para Rodada 3 *(Próximo: Levar o pacote da Rodada 3 (handoff-rodada-3-vitalia-kit-v0.0.1.md, guias de correção do Memorando/Contratos, dashboard_template_referencia.md e mapa-testes-vitalia-kit.md) para a máquina do vitalia-kit, aplicar correções em source/ e validar T1-T7.)*
+- **`24-11-2026 10:22(GMT-04:00)`** — `—` (`72a556ad_20261124_1022`): Auditoria de prontidão Turno 1 do Vitalia Kit v0.0.1 e consolidação documental em vitalia-docs *(Próximo: Retestar a nova versão corrigida do Vitalia Kit v0.0.1 (Turno 2) validando os itens do handoff e, após estabilização do código, reconciliar docs/CONTRATOS_WORKFLOWS_SDD.md.)*
+</details>
+
+<details>
+<summary><strong>⚖️ Clique para expandir as Decisões Arquiteturais Consolidadas</strong></summary>
+
+<br/>
+
+| Máquina (ID) | Decisão Arquitetural | Impacto / Racional |
+| :--- | :--- | :--- |
+| `72a556ad` | Formalizar ADR-0014 em MEMORANDO DE ARQUITETURA.md e congelar CONTRATOS_WORKFLOWS_SDD.md até a validação do Turno 2 sobre a versão corrigida do Vitalia Kit. | Evitar retrabalho em manual de ~4.000 linhas enquanto a spec de correções estabiliza código, prompts e flags CLI. |
+| `72a556ad` | Descontinuar .vitalia/pipeline.json e .vitalia/pipe.json em definitivo; o transporte de estado em filesystem opera via data_storage/context/, data_storage/handoffs/ e payloads transitórios em .vitalia/. | Nenhum script Python em src/ consome pipe.json ou pipeline.json; o controle de estado entre etapas já foi resolvido pelos envelopes de contexto e handoffs. |
+| `72a556ad` | Erradicar .vitalia/session/data (zero tolerância), unificar renderização de dashboards em componente único orientado a templates (foco Rodada 3 no session_repo/README.md) e restringir GuardianContextV2 ao resgate direto de phase_guardrails e phase_profiles. | Evitar inchaço de escopo na Rodada 3, garantindo primeiro o painel rico de sessão e a restauração estrutural de GuardianContextV2, deixando expansão de phase_profiles para spec futura. |
+</details>
+
+<details>
+<summary><strong>💡 Clique para expandir os Aprendizados Consolidados</strong></summary>
+
+<br/>
+
+| Máquina (ID) | Categoria | Aprendizado | Racional |
+| :--- | :---: | :--- | :--- |
+| `72a556ad` | `KIT` | A auditoria comparativa com kit_src, vitalia-kit/source e execução real em sandbox isolado revelou discrepâncias de caminhos (Camada 3), validadores ausentes em constitution.yaml e divergência entre CONTRATOS_WORKFLOWS_SDD.md e os TOMLs/GPs compilados. | Testes executados diretamente no runtime isolado e com repositórios GitHub reais expõem falhas de integração (ex.: históricos Git divergentes e imports sem sys.path) invisíveis em testes unitários mockados. |
+| `72a556ad` | `KIT` | Alterações em source/layers/ (gp_*.yaml, constitution/base.yaml, extensions/*.toml) são a única fonte de verdade compilada por vitalia_layer_compiler.py; editar profiles/ ou extensions/ compilados gera deriva, e achatar chaves (phase/role/guardrails sem phase_guardrails) silencia GuardianContextV2 com {}. | Auditoria direta em git@github.com:andreticba/vitalia-kit.git e execução real do hook brainstorming.toml mostraram phase_guardrails: {} e phase_profiles: {} vazios no envelope. |
+</details>
+
+<details>
+<summary><strong>🛡️ Clique para expandir os Guard Rails de Grounding e Domínios</strong></summary>
+
+<br/>
+
+| Projeção | Status | Domínios Projetados | Pendentes de Curadoria HITL |
+| :--- | :---: | :--- | :---: |
+| [GROUNDING_DOMAINS.md](./GROUNDING_DOMAINS.md) | Ativo | `security_practices`, `software_architecture`, `design_patterns`, `general_web`, `clinical_safety`, `regulations_compliance`, `python_packages`, `provedores_de_ia`, `web_frameworks`, `javascript_ecosystem`, `devops_ci`, `cloud_services` | `0` pendentes |
+
+</details>
+
+<details>
+<summary><strong>🗄️ Clique para expandir o Resumo Numérico da Camada 3 (`data_storage`)</strong></summary>
+
+<br/>
+
+| Categoria | Itens Registrados |
+| :--- | :---: |
+| `context` | 7 |
+| `handoffs` | 0 |
+| `diagnostics` | 0 |
+| `research` | 0 |
+| `backups` | 0 |
+| `telemetry` | 0 |
+| `grounding_decisions` | 0 |
+</details>
+
+---
+
+<sub>Painel gerado automaticamente pelo motor de contexto do Vitalia Kit (<code>vitalia_context_engine.py --action consolidate</code>).</sub>
+
