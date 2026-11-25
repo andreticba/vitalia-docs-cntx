@@ -1,5 +1,5 @@
-<!-- README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:53(GMT-04:00) -->
-**README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:53(GMT-04:00)**
+<!-- README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:57(GMT-04:00) -->
+**README.md | Vitalia Kit v0.0.1 | 24-11-2026 21:57(GMT-04:00)**
 
 # Vitalia Session Dashboard
 
@@ -9,14 +9,14 @@
 
 | Categoria | Itens |
 |-----------|-------|
-| context | 5 |
+| context | 6 |
 | handoffs | 0 |
 | diagnostics | 0 |
 | research | 0 |
 | backups | 0 |
 | telemetry | 0 |
 
-**Total**: 5 itens
+**Total**: 6 itens
 
 ## Navegação
 
@@ -26,4 +26,4 @@
 - [backups](../data_storage/backups/README.md)
 - [telemetry](../data_storage/telemetry/README.md)
 
-*Atualizado em 24-11-2026 21:53(GMT-04:00) — Vitalia Kit v0.0.1*
+*Atualizado em 24-11-2026 21:57(GMT-04:00) — Vitalia Kit v0.0.1*
