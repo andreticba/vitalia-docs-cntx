@@ -1,5 +1,5 @@
-<!-- GROUNDING_DOMAINS.md | Vitalia Kit v0.0.1 | 25-11-2026 16:07(GMT-04:00) -->
-**GROUNDING_DOMAINS.md | Vitalia Kit v0.0.1 | 25-11-2026 16:07(GMT-04:00)**
+<!-- GROUNDING_DOMAINS.md | Vitalia Kit v0.0.1 | 25-11-2026 20:01(GMT-04:00) -->
+**GROUNDING_DOMAINS.md | Vitalia Kit v0.0.1 | 25-11-2026 20:01(GMT-04:00)**
 
 # 🛡️ Domínios de Grounding (P03)
 
@@ -65,4 +65,4 @@
 
 </details>
 
-*Projeção gerada em 25-11-2026 16:07(GMT-04:00) — Vitalia Kit v0.0.1*
+*Projeção gerada em 25-11-2026 20:01(GMT-04:00) — Vitalia Kit v0.0.1*
