@@ -1,5 +1,5 @@
-<!-- README.md | Vitalia Kit v0.0.1 | 26-11-2026 17:01(GMT-04:00) -->
-**README.md | Vitalia Kit v0.0.1 | 26-11-2026 17:01(GMT-04:00)**
+<!-- README.md | Vitalia Kit v0.0.1 | 26-11-2026 17:03(GMT-04:00) -->
+**README.md | Vitalia Kit v0.0.1 | 26-11-2026 17:03(GMT-04:00)**
 
 # 🧠 Painel de Contexto — vitalia-docs
 
@@ -130,7 +130,7 @@ flowchart TD
 
 | Categoria | Itens Registrados |
 | :--- | :---: |
-| `context` | 13 |
+| `context` | 14 |
 | `handoffs` | 0 |
 | `diagnostics` | 0 |
 | `research` | 0 |
