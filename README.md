@@ -1,12 +1,12 @@
-<!-- README.md | Vitalia Kit v0.0.1 | 27-11-2026 06:08(GMT-04:00) -->
-**README.md | Vitalia Kit v0.0.1 | 27-11-2026 06:08(GMT-04:00)**
+<!-- README.md | Vitalia Kit v0.0.1 | 27-11-2026 10:42(GMT-04:00) -->
+**README.md | Vitalia Kit v0.0.1 | 27-11-2026 10:42(GMT-04:00)**
 
 # 🧠 Painel de Contexto — vitalia-docs
 
 ![Status](https://img.shields.io/badge/Status-Ativo-green?style=flat-square)
 ![Semáforo](https://img.shields.io/badge/Sem%C3%A1foro-Sincronizado-green?style=flat-square)
 ![Modo](https://img.shields.io/badge/Modo-dual--repo-blue?style=flat-square)
-![Sync](https://img.shields.io/badge/Sync-27--11--2026%2006%3A07%3A40%28GMT--04%3A00%29-informational?style=flat-square)
+![Sync](https://img.shields.io/badge/Sync-27--11--2026%2010%3A42%3A05%28GMT--04%3A00%29-informational?style=flat-square)
 ![Grounding](https://img.shields.io/badge/Grounding-OK-green?style=flat-square)
 
 > **Vitalia Kit v0.0.1 — Ledger de Memória Persistente e Orquestração Multi-Máquina.**  
@@ -21,16 +21,18 @@
 ```mermaid
 flowchart TD
     HUB["vitalia-docs (Session Ledger)"]
-    SHARD_1["('servido', '72a556ad') — Criação dos 10 novos schemas (#25-#34), pacotes de"]
+    SHARD_1["('servido', '72a556ad') — Alinhamento plano_execucao_hotfix_spec008_spec009."]
     HUB --> SHARD_1
-    SHARD_2["servido — Auditoria integral do kit ativo (34 workflows, 24 "]
+    SHARD_2["('servido', '72a556ad') — Criação dos 10 novos schemas (#25-#34), pacotes de"]
     HUB --> SHARD_2
-    SHARD_3["('servido', '72a556ad') — Validação Rodada 3 (Spec 007 / 48c9eac), teste 2x "]
+    SHARD_3["servido — Auditoria integral do kit ativo (34 workflows, 24 "]
     HUB --> SHARD_3
-    SHARD_4["72a556ad — Rodada 2 de testes do Vitalia Kit v0.0.1, análise "]
+    SHARD_4["('servido', '72a556ad') — Validação Rodada 3 (Spec 007 / 48c9eac), teste 2x "]
     HUB --> SHARD_4
-    SHARD_5["72a556ad — Auditoria de prontidão Turno 1 do Vitalia Kit v0.0"]
+    SHARD_5["72a556ad — Rodada 2 de testes do Vitalia Kit v0.0.1, análise "]
     HUB --> SHARD_5
+    SHARD_6["72a556ad — Auditoria de prontidão Turno 1 do Vitalia Kit v0.0"]
+    HUB --> SHARD_6
 ```
 
 </div>
@@ -51,6 +53,7 @@ flowchart TD
     </tr>
   </thead>
   <tbody>
+    <tr><td><code>('servido', '72a556ad')</code> (72a556ad)</td><td>Alinhamento plano_execucao_hotfix_spec008_spec009.md com Specs 009/010, criação dos schemas #35-#36 (100% cobertura) e atualização de CONTRATOS_WORKFLOWS_SDD.md e mapa-testes-vitalia-kit.md</td><td align="center"><code>session-end</code></td><td align="center">completed</td><td>27-11-2026 10:42:05(GMT-04:00)</td><td>Executar a Spec 009 no repositório vitalia-kit (HEAD 8ca2398) usando docs/schemas/ (#25-#36), docs/CONTRATOS_WORKFLOWS_SDD.md e docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md, seguida da Spec 010.</td></tr>
     <tr><td><code>('servido', '72a556ad')</code> (72a556ad)</td><td>Criação dos 10 novos schemas (#25-#34), pacotes de handoff Specs 009/010, atualização integral de CONTRATOS_WORKFLOWS_SDD.md (34 TOMLs, 25 GPs, 34 schemas) e limpeza da Camada 3</td><td align="center"><code>session-end</code></td><td align="center">completed</td><td>27-11-2026 06:07:40(GMT-04:00)</td><td>Levar docs/schemas/, docs/CONTRATOS_WORKFLOWS_SDD.md, docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md e docs/handoff-spec-010-contratos-toml-catalogos-v0.0.1.md para o repositório vitalia-kit e executar a Spec 009 seguida da Spec 010.</td></tr>
     <tr><td><code>servido</code> (72a556ad)</td><td>Auditoria integral do kit ativo (34 workflows, 24 schemas, código Python/Bash) pós-Specs 007/008 e brainstorming de escopo das Specs 009/010</td><td align="center"><code>session-end</code></td><td align="center">completed</td><td>26-11-2026 17:01:05(GMT-04:00)</td><td>Escrever os 9 schemas faltantes (ambiguity_findings, end_payload, grounding_decisions_payload, architect_mode_diagnostics, architect_modes, ambiguity_taxonomy_catalog, data_storage_index_entry, session_ledger, project_config) mais design_tokens opcional, e o pacote de handoff da Spec 009 (código Python determinístico) e Spec 010 (contratos .toml/catálogos), em vitalia-docs/docs/, seguindo docs/brainstorming-auditoria-kit-ativo-spec-009-010-v0.0.1.md.</td></tr>
     <tr><td><code>('servido', '72a556ad')</code> (72a556ad)</td><td>Validação Rodada 3 (Spec 007 / 48c9eac), teste 2x install-project append, sincronização documental em vitalia-docs e pacote de handoff Rodada 4 (Spec 008)</td><td align="center"><code>session-end</code></td><td align="center">completed</td><td>25-11-2026 20:00:43(GMT-04:00)</td><td>Executar a Spec 008 no repositório vitalia-kit usando docs/handoff-rodada-4-portao-p03-v0.0.1.md e docs/templates/grounding_audit_template.md (corrigir research.toml, unificar contrato de evidências P03 e aplicar Opção A nos 6 pontos).</td></tr>
@@ -64,10 +67,10 @@ flowchart TD
 ## 🎯 Sessão Ativa em Destaque
 
 - **Máquina:** `('servido', '72a556ad')` (`72a556ad`)
-- **Shard ID:** `72a556ad_27112026060740_790e99`
-- **Tarefa:** Criação dos 10 novos schemas (#25-#34), pacotes de handoff Specs 009/010, atualização integral de CONTRATOS_WORKFLOWS_SDD.md (34 TOMLs, 25 GPs, 34 schemas) e limpeza da Camada 3
-- **Status:** `completed` | **Último Sync:** `27-11-2026 06:07:40(GMT-04:00)`
-- **Próximo Passo (P0):** Levar docs/schemas/, docs/CONTRATOS_WORKFLOWS_SDD.md, docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md e docs/handoff-spec-010-contratos-toml-catalogos-v0.0.1.md para o repositório vitalia-kit e executar a Spec 009 seguida da Spec 010.
+- **Shard ID:** `72a556ad_27112026104205_d2e0a1`
+- **Tarefa:** Alinhamento plano_execucao_hotfix_spec008_spec009.md com Specs 009/010, criação dos schemas #35-#36 (100% cobertura) e atualização de CONTRATOS_WORKFLOWS_SDD.md e mapa-testes-vitalia-kit.md
+- **Status:** `completed` | **Último Sync:** `27-11-2026 10:42:05(GMT-04:00)`
+- **Próximo Passo (P0):** Executar a Spec 009 no repositório vitalia-kit (HEAD 8ca2398) usando docs/schemas/ (#25-#36), docs/CONTRATOS_WORKFLOWS_SDD.md e docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md, seguida da Spec 010.
 
 ---
 
@@ -78,6 +81,7 @@ flowchart TD
 
 <br/>
 
+- **`27-11-2026 10:42:05(GMT-04:00)`** — `('servido', '72a556ad')` (`72a556ad_27112026104205_d2e0a1`): Alinhamento plano_execucao_hotfix_spec008_spec009.md com Specs 009/010, criação dos schemas #35-#36 (100% cobertura) e atualização de CONTRATOS_WORKFLOWS_SDD.md e mapa-testes-vitalia-kit.md *(Próximo: Executar a Spec 009 no repositório vitalia-kit (HEAD 8ca2398) usando docs/schemas/ (#25-#36), docs/CONTRATOS_WORKFLOWS_SDD.md e docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md, seguida da Spec 010.)*
 - **`27-11-2026 06:07:40(GMT-04:00)`** — `('servido', '72a556ad')` (`72a556ad_27112026060740_790e99`): Criação dos 10 novos schemas (#25-#34), pacotes de handoff Specs 009/010, atualização integral de CONTRATOS_WORKFLOWS_SDD.md (34 TOMLs, 25 GPs, 34 schemas) e limpeza da Camada 3 *(Próximo: Levar docs/schemas/, docs/CONTRATOS_WORKFLOWS_SDD.md, docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md e docs/handoff-spec-010-contratos-toml-catalogos-v0.0.1.md para o repositório vitalia-kit e executar a Spec 009 seguida da Spec 010.)*
 - **`26-11-2026 17:01:05(GMT-04:00)`** — `servido` (`72a556ad_26112026170105_4f20e5`): Auditoria integral do kit ativo (34 workflows, 24 schemas, código Python/Bash) pós-Specs 007/008 e brainstorming de escopo das Specs 009/010 *(Próximo: Escrever os 9 schemas faltantes (ambiguity_findings, end_payload, grounding_decisions_payload, architect_mode_diagnostics, architect_modes, ambiguity_taxonomy_catalog, data_storage_index_entry, session_ledger, project_config) mais design_tokens opcional, e o pacote de handoff da Spec 009 (código Python determinístico) e Spec 010 (contratos .toml/catálogos), em vitalia-docs/docs/, seguindo docs/brainstorming-auditoria-kit-ativo-spec-009-010-v0.0.1.md.)*
 - **`25-11-2026 20:00:43(GMT-04:00)`** — `('servido', '72a556ad')` (`72a556ad_25112026200043_68afb5`): Validação Rodada 3 (Spec 007 / 48c9eac), teste 2x install-project append, sincronização documental em vitalia-docs e pacote de handoff Rodada 4 (Spec 008) *(Próximo: Executar a Spec 008 no repositório vitalia-kit usando docs/handoff-rodada-4-portao-p03-v0.0.1.md e docs/templates/grounding_audit_template.md (corrigir research.toml, unificar contrato de evidências P03 e aplicar Opção A nos 6 pontos).)*
@@ -99,6 +103,7 @@ flowchart TD
 | `72a556ad` | Dividir a evolução em Spec 009 (schemas novos, sdd_ambiguity_scorer.py determinístico com --resolve, vitalia_handoff.py por flags CLI, fechamento do fluxo 1A P03 N2/N3/N4/N5, indexação e limpeza da Camada 3) e Spec 010 (restauração declarativa dos 34 .toml, guardian.schemas, checklist Ponto 1 e fontes 6b/6c). | Separar engenharia Python testável de curadoria declarativa de prompts evita specs inchadas e entrega funções determinísticas antes dos contratos que as invocam. |
 | `72a556ad` | O LLM deve manipular arquivos sempre ancorado em schemas: injetar guardian.schemas no envelope §11, preferir flags CLI determinísticas a edição manual de JSON e criar os schemas faltantes em OpenAPI 3.0.3 limpo. | Reduz arbitrariedade do LLM, concentra cálculo e validação em Python fail-closed e mantém o LLM apenas no julgamento semântico. |
 | `72a556ad` | Superar D-20261124-01 e consolidar CONTRATOS_WORKFLOWS_SDD.md como Oráculo Normativo de Estado-Alvo Pós-Specs 007–010 (34 TOMLs, 25 GPs, 34 schemas OpenAPI 3.0.3 integrais), vinculando-o aos handoffs das Specs 009 e 010. | Permite que as próximas specs usem o manual atualizado como âncora básica de critérios de sucesso (SC-xxx) e paridade automatizada. |
+| `72a556ad` | Adotar Opção 1: incorporar zero retrocompatibilidade em GroundingDomainUpdater (N2), filtro $schema em latest_handoff() (N4) e Guardrails G3/G4 na Spec 009, mantendo Ponto 1, Ponto 6b/6c (overlays reais) e higiene README/RASCUNHO na Spec 010. | Preserva a fronteira pura entre engenharia Python/Schemas (Spec 009) e contratos declarativos/docs (Spec 010) sem retrabalho. |
 </details>
 
 <details>
@@ -116,6 +121,7 @@ flowchart TD
 | `72a556ad` | `KIT` | index.jsonl só é alimentado por vitalia_hook_runner (context/); scan_environment varre o disco enquanto vitalia_tmp_cleanup depende do índice, deixando arquivos órfãos sem limpeza. | Comprovado em vitalia-docs: 15 .json físicos em context/ contra 12 entradas no index.jsonl. |
 | `72a556ad` | `PROJETO` | Specs grandes degradam a qualidade; dividir em Spec 009 (código Python determinístico e schemas) e Spec 010 (contratos declarativos .toml/catálogos) preserva a maturidade do MVP. | Orientação explícita do usuário após a degradação observada nos turnos anteriores por excesso de escopo. |
 | `72a556ad` | `KIT` | O manual CONTRATOS_WORKFLOWS_SDD.md anterior possuía blocos .toml não parseáveis por tomllib, escala divergente em ambiguity_scoring (75.0 vs 30.0 real) e omissão de gp_converge.yaml; validar o documento programaticamente contra tomllib, jsonschema e Guardrail G1 elimina deriva normativa. | Garante que o manual sirva de oráculo direto para testes automatizados de paridade nas Specs 009 e 010. |
+| `72a556ad` | `KIT` | A inspeção direta de vitalia-kit/source/layers/grounding/overlays/ revelou apenas clinical_health.yaml e stack_fullstack.yaml (não health.yaml/web.yaml/etc.), e a varredura de .vitalia/ identificou .vitalia/agent_preserver.manifest.json (#35) e .vitalia/extensions.yml (#36) descobertos por schemas. | Garante 100% de cobertura OpenAPI 3.0.3 (36 schemas) sobre todo JSON/JSONL/YAML e evita erro de caminho na Spec 010. |
 </details>
 
 <details>
@@ -136,7 +142,7 @@ flowchart TD
 
 | Categoria | Itens Registrados |
 | :--- | :---: |
-| `context` | 9 |
+| `context` | 13 |
 | `handoffs` | 0 |
 | `diagnostics` | 0 |
 | `research` | 0 |

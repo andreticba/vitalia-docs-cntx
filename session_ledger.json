@@ -1,7 +1,23 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "27-11-2026 06:07:40(GMT-04:00)",
+  "updated_at": "27-11-2026 10:42:05(GMT-04:00)",
   "shards": [
+    {
+      "shard_id": "72a556ad_27112026104205_d2e0a1",
+      "machine_name": "('servido', '72a556ad')",
+      "machine_id": "72a556ad",
+      "mode": "session-end",
+      "last_sync": "27-11-2026 10:42:05(GMT-04:00)",
+      "task": "Alinhamento plano_execucao_hotfix_spec008_spec009.md com Specs 009/010, criação dos schemas #35-#36 (100% cobertura) e atualização de CONTRATOS_WORKFLOWS_SDD.md e mapa-testes-vitalia-kit.md",
+      "steps": [
+        "Auditado estado real de vitalia-kit (HEAD 8ca2398, fim da Spec 008) e confrontado com plano_execucao_hotfix_spec008_spec009.md",
+        "Criados e validados os schemas #35 (agent_preserver_manifest.schema.json) e #36 (extensions_config.schema.json) em OpenAPI 3.0.3 limpo, atingindo 100% de cobertura",
+        "Atualizados handoff-spec-009 (zero retrocompatibilidade N2, filtro $schema N4, G3/G4, 36 schemas) e handoff-spec-010 (overlays reais clinical_health.yaml e stack_fullstack.yaml, higiene docs)",
+        "Atualizados docs/CONTRATOS_WORKFLOWS_SDD.md (36 schemas integrais), docs/schemas/README.md e docs/relatorios/mapa-testes-vitalia-kit.md (eixo T8)"
+      ],
+      "next_step": "Executar a Spec 009 no repositório vitalia-kit (HEAD 8ca2398) usando docs/schemas/ (#25-#36), docs/CONTRATOS_WORKFLOWS_SDD.md e docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md, seguida da Spec 010.",
+      "status": "completed"
+    },
     {
       "shard_id": "72a556ad_27112026060740_790e99",
       "machine_name": "('servido', '72a556ad')",
