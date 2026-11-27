@@ -1,7 +1,23 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "26-11-2026 17:01:05(GMT-04:00)",
+  "updated_at": "27-11-2026 06:07:40(GMT-04:00)",
   "shards": [
+    {
+      "shard_id": "72a556ad_27112026060740_790e99",
+      "machine_name": "('servido', '72a556ad')",
+      "machine_id": "72a556ad",
+      "mode": "session-end",
+      "last_sync": "27-11-2026 06:07:40(GMT-04:00)",
+      "task": "Criação dos 10 novos schemas (#25-#34), pacotes de handoff Specs 009/010, atualização integral de CONTRATOS_WORKFLOWS_SDD.md (34 TOMLs, 25 GPs, 34 schemas) e limpeza da Camada 3",
+      "steps": [
+        "Criados e validados os 10 novos schemas OpenAPI 3.0.3 limpos (#25-#34) em docs/schemas/ + catálogo docs/schemas/README.md",
+        "Redigidos os handoffs formais handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md e handoff-spec-010-contratos-toml-catalogos-v0.0.1.md",
+        "Descongelado e atualizado integralmente docs/CONTRATOS_WORKFLOWS_SDD.md (6729 linhas): 34 TOMLs parseáveis (tomllib + G1 + 16 checklists), 25 gp_*.yaml, ambiguity_scoring teto 30.0, 12 domínios/26 fontes P03 e JSON literal dos 34 schemas",
+        "Higienizada a Camada 3 (vitalia_tmp_cleanup + órfãos) e validado header_stamp.py --check PASS (65/65)"
+      ],
+      "next_step": "Levar docs/schemas/, docs/CONTRATOS_WORKFLOWS_SDD.md, docs/handoff-spec-009-determinismo-schemas-camada3-v0.0.1.md e docs/handoff-spec-010-contratos-toml-catalogos-v0.0.1.md para o repositório vitalia-kit e executar a Spec 009 seguida da Spec 010.",
+      "status": "completed"
+    },
     {
       "shard_id": "72a556ad_26112026170105_4f20e5",
       "machine_name": "servido",
